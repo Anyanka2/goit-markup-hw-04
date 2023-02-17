@@ -267,6 +267,40 @@ img {
 .socials-link:hover {
   background-color: var(--pressed-state-ocean);
 }
+
+.customers-list{
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 5 * 24px) / 6);
+  padding-bottom: 120px;
+  justify-content: center;
+}
+.customers-icon{
+  width: 94px;
+  height: 44px;
+  fill: var(--helper-text-light-slate);
+}
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+.customers-link {
+  display: flex;
+  border: 1px solid var(--helper-text-light-slate);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon{
+fill: var(--pressed-state-ocean);
+}
+.customers-link:hover,
+.customers-link:focus{
+border: 1px solid var(--pressed-state-ocean);
+}
 /*index end*/
 
 /*portfolio*/
