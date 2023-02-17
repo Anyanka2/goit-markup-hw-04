@@ -278,7 +278,7 @@ img {
 .customers-icon{
   width: 94px;
   height: 44px;
-  fill: var(--helper-text-light-slate);
+  
 }
 .customers-item {
   width: 168px;
@@ -288,19 +288,18 @@ img {
   display: flex;
   border: 1px solid var(--helper-text-light-slate);
   border-radius: 4px;
+  fill: var(--helper-text-light-slate);
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon{
-fill: var(--pressed-state-ocean);
-}
 .customers-link:hover,
 .customers-link:focus{
+fill: var(--pressed-state-ocean);
 border: 1px solid var(--pressed-state-ocean);
 }
+
 /*index end*/
 
 /*portfolio*/
