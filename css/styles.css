@@ -152,6 +152,8 @@ img {
 .button-hero {
   color: var(--text-color-white);
   background-color: var(--primary-brand-iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
